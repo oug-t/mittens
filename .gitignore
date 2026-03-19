@@ -1,0 +1,25 @@
+# Compiled Go Binaries
+guest
+mittens_cli
+
+# Firecracker Binaries
+release-v1.7.0-x86_64/
+*.tgz
+
+# VM Assets
+vmlinux
+rootfs.ext4
+mnt/
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.host.env
+*.pem
+
+# Editor
+.DS_Store
+.vscode/
+.idea/
